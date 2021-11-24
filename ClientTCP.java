@@ -23,7 +23,7 @@ public class ClientTCP {
                     + "----------------------------");
             Socket cl = new Socket("10.8.0.7", 2001);
             DataOutputStream dos = new DataOutputStream(cl.getOutputStream());
-            dos.writeBytes("Halo Fauzan, Ini Rahman\n\n -------------------------------------------------\n1. Abdul Rahman Saleh (01): Client(Pengirim)\n2. Muhammad Fauzan Tri Aji (15): Server(Penerima)\n-------------------------------------------------");
+            dos.writeBytes("Halo Fauzan, Ini Rahman");
         } catch (Exception e) {
         }
 
